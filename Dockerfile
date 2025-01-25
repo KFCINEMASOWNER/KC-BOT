@@ -10,7 +10,7 @@ COPY requirements.txt /requirements.txt
 
 RUN cd /
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
-RUN mkdir /KF-FILTER-BOT
-WORKDIR /KF-FILTER-BOT
-COPY . /KF-FILTER-BOT
+RUN mkdir /KC-BOT
+WORKDIR /KC-BOT
+COPY . /KC-BOT
 CMD ["python", "bot.py"]

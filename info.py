@@ -126,9 +126,9 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True)) # Set True Or False
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'adrinolinks.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', '41252b5878875a031c9034bd730b5c3ce458b1ae')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/KF_Links/197') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shortxlinks.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'ba1103ff3500b60d006da49756ebafff3b8f6550')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/KF_Links/129') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
 
 
 # Others
